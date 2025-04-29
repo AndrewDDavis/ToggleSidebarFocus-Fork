@@ -4,7 +4,7 @@ A plugin for Sublime Text that allows you to open, focus, and close the sidebar 
 
 ## Installation
 
-Install `ToggleSidebarFocus` through Package Control.
+Install `ToggleSidebarFocus` through Package Control (though this fork must be installed manually, by downloading it and moving it to the Packages dir).
 
 ## Usage
 
@@ -12,6 +12,6 @@ Open your `sublime-keymap` file from `Preferences -> Key Bindings` in Sublime Te
 
 ```json
 {
-    "keys": ["super+enter"],
+    "keys": ["Ctrl+0"],
     "command": "toggle_sidebar_and_focus"
 },
